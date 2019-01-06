@@ -9,10 +9,10 @@ MYSQL_RES *result;
 MYSQL_ROW row;
 
 int retval;
-const char* host = "jesdb.smaldino.it";
-const char* database = "db_meteo1";
-const char* db_user = "meteo1";
-const char* db_pass = "meteop1";
+const char* host = <hostname>;
+const char* database = <db>;
+const char* db_user = <username>;
+const char* db_pass = <passwd>;
 
 int CRUD_insert_temp_hum(char *sitecode, char *data, float temp, float hum){
 	char stringa[500];
